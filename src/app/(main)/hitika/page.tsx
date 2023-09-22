@@ -45,11 +45,11 @@ function Page() {
         initialState={{
           pagination: {
             paginationModel: {
-              pageSize: 2,
+              pageSize: 1,
             },
           },
         }}
-        pageSizeOptions={[5]}
+        pageSizeOptions={[1, 3]}
         // editMode="row"
       />
     </Stack>
