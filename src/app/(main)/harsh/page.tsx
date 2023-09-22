@@ -9,6 +9,7 @@ const columns: GridColDef[] = [
   { field: "LastName", headerName: "Lastname", width: 180 },
   { field: "Email", headerName: "Email", width: 180 },
   { field: "Phone", headerName: "Phone", width: 180, editable: true },
+  { field: "Gender", headerName: "Gender", width: 180 },
 ]
 const rows: GridRowsProp = [
   {
@@ -17,6 +18,7 @@ const rows: GridRowsProp = [
     LastName: "404",
     Email: "dk@mail.com",
     Phone: "7897897890",
+    Gender: "Male",
   },
   {
     id: 2,
@@ -24,6 +26,7 @@ const rows: GridRowsProp = [
     LastName: "tech",
     Phone: "4564564560",
     Email: "aman@mail.com",
+    Gender: "Male",
   },
   {
     id: 3,
@@ -31,13 +34,15 @@ const rows: GridRowsProp = [
     LastName: "siddhant",
     Phone: "1231231230",
     Email: "codesiddhant@mail.com.",
+    Gender: "Male",
   },
   {
     id: 4,
-    FirstName: "mayank",
+    FirstName: "riya",
     LastName: "pandey",
     Phone: "7417417410",
-    Email: "mpandey@mail.com.",
+    Email: "riya@mail.com.",
+    Gender: "Female",
   },
   {
     id: 5,
@@ -45,6 +50,7 @@ const rows: GridRowsProp = [
     LastName: "vaidya",
     Phone: "8528528520",
     Email: "harshv1209@mail.com.",
+    Gender: "Male",
   },
   {
     id: 6,
@@ -52,6 +58,7 @@ const rows: GridRowsProp = [
     LastName: "bachan",
     Phone: "7714171477",
     Email: "bachaan@mail.com.",
+    Gender: "Male",
   },
   {
     id: 7,
@@ -59,6 +66,7 @@ const rows: GridRowsProp = [
     LastName: "bala",
     Phone: "9517538520",
     Email: "ballu@mail.com.",
+    Gender: "Male",
   },
   {
     id: 8,
@@ -66,6 +74,7 @@ const rows: GridRowsProp = [
     LastName: "dewani",
     Phone: "99887744550",
     Email: "hdewani@mail.com.",
+    Gender: "Female",
   },
 ]
 
